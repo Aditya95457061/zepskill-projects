@@ -1,0 +1,73 @@
+body, html {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/750/649/236/the-sky-girl-space-night-wallpaper-preview.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+   
+  .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(120deg, #7eb2dd 20.69%, #815beb 50.19%, #fd4766 79.69%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+    padding-bottom: 20px;
+    width: 320px;
+    
+  }
+  .display {
+    width: 100%;
+    height: 60px;
+    padding: 40px 0;
+    background: linear-gradient(120deg, #ca77c3 30.69%, #a42261 100.19%, #e523c5 90.69%);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+  .buttons {
+    padding: 20px 20px 0 20px;
+  }
+  .row {
+    width: 280px;
+    float: left;
+  }
+  input[type=button] {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background: #aec3ed;
+    border: none;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 30px;
+    border-radius: 50%;
+    font-weight: 700;
+    color: #f22b2b;
+    cursor: pointer;
+    
+  }
+  input[type=text] {
+    width: 270px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    color: #110a0a;
+    text-align: right;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 25px;
+    
+  }
+  .red {
+    background: #afccee !important;
+    color: #7415a4 !important;
+    
+  }

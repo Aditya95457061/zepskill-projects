@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>PortFolio Website </title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- <style>
+    .home{
+        background-image:url('/Dil-images-I-Love-You-hd-2048x2048.jpg');
+        background-size: cover;
+        background-repeat:no-repeat ;
+    }
+   </style> -->
+</head>
+
+<body>
+
+    <button class="scrollbtn" id="btn" type="button" onclick="scrolltoTop()"><i class="fa fa-arrow-up"></i></button>
+
+
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#home">PortFolio</a>
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="#home" onclick="menu()">Home</a></li>
+            <li><a href="#about" onclick="menu()">About</a></li>
+            <li><a href="#services" onclick="menu()">Services</a></li>
+            <li><a href="#portfolio" onclick="menu()">PortFolio</a></li>
+            <li><a href="#blog" onclick="menu()">Blog</a></li>
+            <li><a href="#contact" onclick="menu()">Contact</a></li>
+        </ul>
+        <div class="menu-btn" onclick="menu()"><i class="fa fa-bars"></i></div>
+    </nav>
+
+
+    <div class="home" id="home">
+        <div class="home-content">
+            
+            <h1 class="name">I'm Aditya</h1>
+            <p>A passionate Full Stack Web Developer and
+                Mobile App Developer having an experience
+            of building web application with javascript/ReactJs
+            /NodeJs/DSA/Flask and some other cool libraries
+        and framwork and Cross Platform Mobile Apps With 
+    flutter</p>
+            <!-- <img src="/Screenshot 2023-04-18 123901.png"/> -->
+            <!-- <p><span class="typing"></span></p> -->
+            <button>DOWNLOAD CV</button>
+        </div>
+    </div>
+
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="info">
+                    <div class="personal">
+                        <div class="photo">
+                            <img src="images/testimonial-2.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            <p><span>Name:</span> Aditya kumar</p>
+                            <p><span>Profile:</span> Full Stack Developer</p>
+                            <p><span>Email:</span> adita123@gmaail.com</p>
+                            <p><span>Phone:</span> 7903309575</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h4>Skills</h4>
+                        <div class="skill">
+                            <span>HTML</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-line"><span class="html"></span></div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-line"><span class="css"></span></div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-line"><span class="javascript"></span></div>
+                        <div class="skill">
+                            <span>DSA</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="progress-line"><span class="php"></span></div>
+                    </div>
+                </div>
+                <div class="aboutme">
+                    <h5>About me</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ipsa rerum aliquam, sit quam id.
+                        Quisquam, tempora exercitationem ut porro rem dolores temporibus aperiam incidunt consectetur.
+                    </p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ipsa rerum aliquam, sit quam id.
+                        Quisquam, tempora exercitationem ut porro rem dolores temporibus aperiam incidunt consectetur.
+                    </p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ipsa rerum aliquam, sit quam id.
+                        Quisquam, tempora exercitationem ut porro rem dolores temporibus aperiam incidunt consectetur.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start here -->
+    <section class="services" id="services">
+        <div class="container">
+            <h3 class="title">Services</h3>
+            <div class="line"></div>
+            <div class="services-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-code"></i></div>
+                        <div class="card-title">Web Development</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-mobile"></i></div>
+                        <div class="card-title">App Development</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                        <div class="card-title">Web Design</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-laptop"></i></div>
+                        <div class="card-title">Responsive Design</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-line-chart"></i></div>
+                        <div class="card-title">Advertising</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-wordpress"></i></div>
+                        <div class="card-title">Wordpress</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section start here -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h3 class="title">Portfolio</h3>
+            <div class="line"></div>
+            <div class="portfolio-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="/7e6f264c203b3e1033923b432bbf7f21.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Travelling</h3>
+                            <p href="#"><span class="category">Travelling</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="/drawing.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Drawing</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="/calculator.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Calculator</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="/faq.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>FAQ</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="/Stopwatch.gif" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Stopwatch</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="/todo.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>ToDo</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section start here -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h3 class="title">Blog</h3>
+            <div class="line"></div>
+            <div class="blog-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="/calculator.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Calculator</h3>
+                            <div class="category">calculator</div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quos tenetur magni cumque
+                                corporis mollitia!</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="/drawing.jpg" alt="">
+                                <p>Drawing</p>
+                            </div>
+                            <div class="date">
+                                <p>15 jan 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="/Stopwatch.gif" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Stopwatch</h3>
+                            <div class="category">Stopwatch</div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quos tenetur magni cumque
+                                corporis mollitia!</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="images/testimonial-2.jpg" alt="">
+                                <p>Stopwatch</p>
+                            </div>
+                            <div class="date">
+                                <p>15 Aug 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="/faq.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>FAQs</h3>
+                            <div class="category">FAQs</div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quos tenetur magni cumque
+                                corporis mollitia!</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="images/testimonial-2.jpg" alt="">
+                                <p>FAQs</p>
+                            </div>
+                            <div class="date">
+                                <p>15 Aug 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start here -->
+    <section class="contact" id="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="message">
+                    <form>
+                        <h3 class="heading">Send Message us</h3>
+                        <div class="line"></div>
+                        <div class="field">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="field">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="field">
+                            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="gettouch">
+                    <h3 class="heading">Get in Touch</h3>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
+                        expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione
+                        nobis mollitia inventore?</p>
+                    <div class="info"><i class="fa fa-map-marker"></i>Gurgaon Dundahera 122016</div>
+                    <div class="info"><i class="fa fa-phone"></i>1234567890</div>
+                    <div class="info"><i class="fa fa-envelope"></i>contact@example.com</div>
+                    <div class="social">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-youtube-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>© Copyright PortFolio. All Rights Reserved</p>
+            <p>Designed by <a href="https://bootstrapmade.com/">BootstrapMade</p>
+        </footer>
+    </section>
+
+
+</body>
+<script src="portfolio.js"></script>
+
+</html>
